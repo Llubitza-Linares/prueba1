@@ -21,4 +21,8 @@ public class Singleton {
     public void print(){
         System.out.println("Usando el singleton");
     }
+
+    public void restartSingleton(){
+        instancia=null;
+    }
 }
