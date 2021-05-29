@@ -1,0 +1,4 @@
+singleton/basic/Singleton.java
+ singleton.basic.Singleton
+singleton/basic/ClienteSingleton.java
+ singleton.basic.ClienteSingleton
