@@ -1,4 +1,14 @@
+singleton/basic/Cliente2.java
+ singleton.basic.Cliente2
+singleton/basic/Singleton3.java
+ singleton.basic.Singleton3
+singleton/basic/Cliente3.java
+ singleton.basic.Cliente3
+ singleton.basic.Cliente3$1
+ singleton.basic.Cliente3$2
 singleton/basic/Singleton.java
  singleton.basic.Singleton
+singleton/basic/Singleton2.java
+ singleton.basic.Singleton2
 singleton/basic/ClienteSingleton.java
  singleton.basic.ClienteSingleton

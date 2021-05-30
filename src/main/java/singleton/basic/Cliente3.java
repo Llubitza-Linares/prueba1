@@ -7,7 +7,8 @@ public class Cliente3 {
             @Override
             public void run() {
                Singleton3 singleton = Singleton3.getInstance();
-               System.out.println("Hilo1: Memory Section:"+singleton.hashCode());
+               System.out.println("Hilo1: Memory Section:"+singleton.getInstance().hashCode());
+               singleton.print();
             }
         });
 
@@ -15,7 +16,8 @@ public class Cliente3 {
             @Override
             public void run() {
                 Singleton3 singleton2 = Singleton3.getInstance();
-                System.out.println("Hilo2: Memory Section:" +singleton2.hashCode());
+                System.out.println("Hilo2: Memory Section:" +singleton2.getInstance().hashCode());
+                singleton2.print();
             }
         });
 
