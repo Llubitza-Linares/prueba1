@@ -12,3 +12,16 @@ singleton/basic/Singleton2.java
  singleton.basic.Singleton2
 singleton/basic/ClienteSingleton.java
  singleton.basic.ClienteSingleton
+singleton/ejemplo/ClienteBanco.java
+ singleton.ejemplo.ClienteBanco
+ singleton.ejemplo.ClienteBanco$1
+ singleton.ejemplo.ClienteBanco$2
+ singleton.ejemplo.ClienteBanco$3
+singleton/ejemplo/SucursalBanco.java
+ singleton.ejemplo.SucursalBanco
+singleton/ejemplo/BancaMovil.java
+ singleton.ejemplo.BancaMovil
+singleton/ejemplo/Cajero.java
+ singleton.ejemplo.Cajero
+singleton/ejemplo/Banco.java
+ singleton.ejemplo.Banco

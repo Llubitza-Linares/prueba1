@@ -18,8 +18,9 @@ public class Banco {
         return instance;
     }
 
-    public void getMoney(int amount){
+    public synchronized void getMoney(int amount){
         if (amount <= saldo){
+            System.out.println("****"+saldo);
             saldo=saldo-amount;
             System.out.println("INFO> ---saldo"+saldo+"cantidad retirada"+amount);
         }else{
